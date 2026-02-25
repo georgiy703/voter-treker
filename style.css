@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+main {
+width: 469px;
+background-color: black;
+height: 100vh;
+flex-direction: column;
+}
+
+body, main {
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+}
+
+h1 {
+  color:azure;
+}
+
+p {
+color:white;
+font-size: 32px;
+}
+
+.circle {
+  width: 180px;
+  height: 180px;
+  background-color: transparent;
+  margin-block: 60px;
+  border-radius: 50%;
+  display: flex; 
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ border: 3px white solid;
+ overflow: hidden;
+}
+
+.water {
+  width: 180px;
+  height: 18000px;
+  background-color: #00E7F3;
+  position: absolute;
+}
+
+.percent-container {
+  position: relative;
+  z-index: 100;
+}
+
+select {
+  background-color: #005E85;
+  color:white;
+  padding-block: 16px;
+  padding-inline: 8px;
+  border: white solid 2px;
+}
+
+
+button {
+background-color: #002D53;
+color: white;
+padding: 16px;
+border: white solid 2px;
+width: 44px;
+height: 51px;
+}
+
+body {
+  background-color: black;
+}
+
+.delete {
+ padding: 0px;
+ background-color: #3b82a0; 
+}
+.delete img {
+  width: 40px;
+  height: 40px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
